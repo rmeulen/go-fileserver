@@ -13,7 +13,10 @@ go build -o fileserver main.go
 |FILE_ROOT|`./` |File root of the fileserver on the machine  |
 
 ## Usage: Application
-You can run the 
+You can run the application as-is. No flags or parameters are required.
+```
+./fileserver
+```
 ## Usage: Docker
 * Build the docker image:
 ```
