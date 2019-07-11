@@ -3,7 +3,7 @@ A simple fileserver written in Go (1.12)
 
 ## Building source
 ```
-go build main.go -o fileserver
+go build -o fileserver main.go
 ```
 
 ## Configuration
