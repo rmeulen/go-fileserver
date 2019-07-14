@@ -1,5 +1,5 @@
 [![Build Status](https://travis-ci.org/rmeulen/go-fileserver.svg?branch=master)](https://travis-ci.org/rmeulen/go-fileserver)
-
+[![Go Report Card](https://goreportcard.com/badge/github.com/rmeulen/go-fileserver)](https://goreportcard.com/report/github.com/rmeulen/go-fileserver)
 # go-fileserver
 A simple fileserver written in Go (1.12)
 
