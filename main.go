@@ -1,6 +1,7 @@
 package main
 
 import (
+	"github.com/rmeulen/go-fileserver/fileserver"
 	"fmt"
 	"log"
 	"net/http"
@@ -19,7 +20,7 @@ func main() {
 	port := determinePort()
 	fileRoot := determineFileRoot()
 
-	fileServer := http.FileServer(http.Dir(fileRoot))
+	fileServer := fileserver.CreateHandler(fileRoot)
 
 	log.Printf("Listening on port: %d", port)
 	log.Printf("Using file root: %s", fileRoot)
