@@ -1,6 +1,7 @@
 FROM golang:1 as build
 WORKDIR /go/src/
-COPY main.go .
+COPY fileserver fileserver
+COPY main.go go.mod ./
 RUN CGO_ENABLED=0 go build -o /go/bin/fileserver .
 
 FROM scratch
