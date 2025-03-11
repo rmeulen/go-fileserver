@@ -29,3 +29,6 @@ docker build -t <tag> .
 ```
 docker run --rm -p 8080:8080 -v ${PWD}:/root <tag>
 ```
+
+## Release
+A new release is created automatically when packaging a new version of the image using GitHub Actions. The release is tagged with the commit SHA and named "Release <commit SHA>". The release body contains the message "Automated release for commit <commit SHA>".
