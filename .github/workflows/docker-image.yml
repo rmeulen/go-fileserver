@@ -23,7 +23,7 @@ jobs:
       run: docker build -t ghcr.io/${{ github.repository }}/fileserver:${{ github.sha }} .
 
     - name: Add test data
-      run: echo "This is a test file." > testdata/testfile.txt
+      run: mkdir -p testdata && echo "This is a test file." > testdata/testfile.txt
 
     - name: Test the Docker image
       run: |
