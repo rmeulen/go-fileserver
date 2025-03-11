@@ -14,6 +14,8 @@ go build -o fileserver main.go
 |PORT     |`8080` |Port the fileserver is listening on         |
 |FILE_ROOT|`./` |File root of the fileserver on the machine  |
 
+The application now uses the Viper framework to process environment variables. Viper allows for more flexible configuration management, including default values, environment variable bindings, and more.
+
 ## Usage: Application
 You can run the application as-is. No flags or parameters are required.
 ```
