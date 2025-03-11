@@ -1,5 +1,5 @@
-[![Build Status](https://travis-ci.org/rmeulen/go-fileserver.svg?branch=master)](https://travis-ci.org/rmeulen/go-fileserver)
 [![Go Report Card](https://goreportcard.com/badge/github.com/rmeulen/go-fileserver)](https://goreportcard.com/report/github.com/rmeulen/go-fileserver)
+[![Build and Push Docker Image](https://github.com/rmeulen/go-fileserver/actions/workflows/docker-image.yml/badge.svg)](https://github.com/rmeulen/go-fileserver/actions/workflows/docker-image.yml)
 # go-fileserver
 A simple fileserver written in Go (1.12)
 
