@@ -1,0 +1,13 @@
+{
+  "name": "Go Dev Container",
+  "image": "mcr.microsoft.com/devcontainers/go:1.22",
+  "features": {},
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "golang.Go"
+      ]
+    }
+  },
+  "postCreateCommand": "go mod tidy"
+}
