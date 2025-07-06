@@ -1,3 +1,5 @@
+go 1.12
+
 module github.com/rmeulen/go-fileserver
 
 go 1.24.4
@@ -18,4 +20,5 @@ require (
 	golang.org/x/sys v0.29.0 // indirect
 	golang.org/x/text v0.21.0 // indirect
 	gopkg.in/yaml.v3 v3.0.1 // indirect
+  github.com/google/uuid v1.1.2
 )
