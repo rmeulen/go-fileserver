@@ -1,3 +1,5 @@
+go 1.12
+
 module github.com/rmeulen/go-fileserver
 
-go 1.12
+require github.com/google/uuid v1.1.2
